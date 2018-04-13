@@ -1,0 +1,22 @@
+
+.pinned_label, .pinpost {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px 5px 0 0;
+    border-top: 2px solid #c96a76;
+    color: #c96a76;
+    float: left;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 10;
+}
+.pinned_label{
+	float:left;
+}
+.pinpost {
+	float:right;
+	cursor:pointer;
+	z-index: 13;
+}
+/*.rarteam_entry_items #activity-stream-pinned{display:none;}*/
